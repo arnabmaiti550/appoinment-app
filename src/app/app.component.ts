@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'appoinment-app';
+  message: string = 'Hello World';
+  items: string[] = ['item 1', 'item 2'];
+  log(text: string): void {
+    var message = 'Message ' + text;
+  }
 }
